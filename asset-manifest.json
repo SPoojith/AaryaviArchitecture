@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AaryaviArchitecture/static/css/main.3f151884.css",
+    "main.js": "/AaryaviArchitecture/static/js/main.d407946c.js",
+    "static/js/453.f10e067e.chunk.js": "/AaryaviArchitecture/static/js/453.f10e067e.chunk.js",
+    "static/media/Logo1.jpeg": "/AaryaviArchitecture/static/media/Logo1.eca1e7ac938e6f4939ee.jpeg",
+    "index.html": "/AaryaviArchitecture/index.html",
+    "main.3f151884.css.map": "/AaryaviArchitecture/static/css/main.3f151884.css.map",
+    "main.d407946c.js.map": "/AaryaviArchitecture/static/js/main.d407946c.js.map",
+    "453.f10e067e.chunk.js.map": "/AaryaviArchitecture/static/js/453.f10e067e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f151884.css",
+    "static/js/main.d407946c.js"
+  ]
+}
