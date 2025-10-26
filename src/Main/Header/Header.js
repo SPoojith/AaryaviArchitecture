@@ -1,4 +1,3 @@
-import '@mantine/core/styles.css';
 import {
   IconBook,
   IconChartPie3,
@@ -78,7 +77,7 @@ function Header() {
   ));
 
   return (
-    <Box pb={120}>
+    <Box pb={2}>
       <header className={classes.header}>
         <Group justify="space-between" h="100%">
           <Logo size={30} />

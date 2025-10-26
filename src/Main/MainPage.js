@@ -5,13 +5,13 @@ import Footer from './Footer/Footer';
 function MainPage() {
     return (
         <div style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
-            <div style={{ flex: '0 0 10%' }}>
+            <div>
                 <Header />
             </div>
-            <div style={{ flex: '1 0 80%' }}>
+            <div>
                 <SubComponents />
             </div>
-            <div style={{ flex: '0 0 10%' }}>
+            <div>
                 <Footer />
             </div>
         </div>

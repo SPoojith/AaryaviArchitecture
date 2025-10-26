@@ -1,8 +1,8 @@
+import {LandingPageCardsCarousel}  from './LandingPage/LandingPage';
 function SubComponents() {
     return (
         <div>
-            <h2>Subcomponents</h2>
-            <p>This is the subcomponents section.</p>
+            <LandingPageCardsCarousel />
         </div>
     );
 }

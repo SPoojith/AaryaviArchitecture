@@ -1,6 +1,8 @@
 import './App.css';
 import MainPage from './Main/MainPage';
 import { MantineProvider } from '@mantine/core';
+import '@mantine/core/styles.css';
+import '@mantine/carousel/styles.css';
 
 function App() {
   return (
