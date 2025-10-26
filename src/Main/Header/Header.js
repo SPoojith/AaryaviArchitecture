@@ -2,6 +2,7 @@ import {
   IconBook,
   IconChartPie3,
   IconChevronDown,
+  IconChevronUp,
   IconCode,
   IconCoin,
   IconFingerprint,
@@ -59,7 +60,7 @@ function Header() {
   const theme = useMantineTheme();
 
   const links = mockdata.map((item) => (
-    <UnstyledButton className={classes.subLink} key={item.title}>
+    <UnstyledButton className={classes.subLink} key={item.title} style={{padding: 'var(--mantine-spacing-md)'}}>
       <Group wrap="nowrap" align="flex-start">
         <ThemeIcon size={34} variant="default" radius="md">
           <item.icon size={22} color={theme.colors.blue[6]} />
@@ -170,12 +171,12 @@ function Header() {
           <a href="#" className={classes.link}>
             Home
           </a>
-          <UnstyledButton className={classes.link} onClick={toggleLinks}>
+          <UnstyledButton className={classes.link} onClick={toggleLinks} style={{paddingLeft: 'var(--mantine-spacing-md)'}}>
             <Center inline>
               <Box component="span" mr={5}>
                 Services
               </Box>
-              <IconChevronDown size={16} color={theme.colors.blue[6]} />
+              {linksOpened ? <IconChevronUp size={16} color={theme.colors.blue[6]} />:<IconChevronDown size={16} color={theme.colors.blue[6]} />}
             </Center>
           </UnstyledButton>
           <Collapse in={linksOpened}>{links}</Collapse>
